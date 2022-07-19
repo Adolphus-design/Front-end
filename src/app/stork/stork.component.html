@@ -1,0 +1,13 @@
+<ul  class="stork">
+  <li *ngFor= "let stork of data">
+     
+    <a routerLink="/stork/{{stork.code}}">
+      <span class="badge">{{stork.code}}</span>
+      <span class="name"> {{stork.name}}</span>
+      
+    </a>
+
+    <!--<button class="delete" title="delete user"
+    (click)="delete(user)">x</button>-->
+  </li>
+</ul>

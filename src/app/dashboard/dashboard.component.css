@@ -1,0 +1,37 @@
+mat-toolbar{
+  background-color: rgb(90, 27, 238);
+  color: rgb(16, 17, 16);
+  font-family: monospace;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: x-large;
+  text-align: end;
+  align-content: flex-end;
+  color: white;
+}
+
+span{
+  padding-right: 2rem;
+}
+
+.nav{
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+mat-drawer-container{
+  height: 100%;
+}
+
+mat-drawer, mat-drawer-content{
+  padding: 16px;
+}
+
+mat-sidenav{
+  background-color: lightskyblue;
+  width: 200px;
+}
+
+mat-drawer{
+  background-color: wheat;
+}

@@ -1,0 +1,95 @@
+<mat-toolbar color="glass" class="navbar">
+    <div routerLink="/home">Home</div>
+    <nav>
+        <button mat-raised-button class="log">Login</button>
+        <span routerLink ="/register">Register</span>
+        <span button routerLink = "/about">About</span>
+    </nav>
+</mat-toolbar>
+
+  
+
+
+    
+
+    
+
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+   </head>
+   <body>
+      
+        <mat-tab-group class="mattab">
+            <mat-tab label="Login" class="tab1">
+
+                <mat-form-field floatLabel="auto" appearance="outline" color="primary">
+                <mat-label >Name</mat-label>
+                <input matInput type="text" name="" placeholder="Enter Name" 
+                 required>
+                </mat-form-field><br>
+
+                <mat-form-field floatLabel="auto" appearance="outline" color="primary">
+                <mat-label >Password</mat-label>
+                <input matInput type="Password" name="" placeholder="Enter Password" 
+                 required>
+
+                
+                </mat-form-field><br>
+                <button mat-flat-button align="center">Login</button>
+                <button mat-flat-button class="reg">Forgot Password</button>
+
+                <p class="logText">
+                    <br>
+                    You are loggin to the selling system.
+                    We hope you have read the manual for 
+                    how the system works.<br>
+                    <br>Good Luck!
+                </p>
+        </mat-tab>
+
+        <mat-tab label="Register">
+            <mat-form-field floatLabel="auto" appearance="outline" color="primary">
+                <mat-label >Name</mat-label>
+                <input matInput type="text" name="" placeholder="Enter Name" 
+                 required>
+                </mat-form-field><br>
+
+                <mat-form-field floatLabel="auto" appearance="outline" color="primary">
+                    <mat-label >Surname</mat-label>
+                    <input matInput type="text" name="" placeholder="Enter Surname" 
+                     required>
+                    </mat-form-field><br>
+
+                <mat-form-field floatLabel="auto" appearance="outline" color="primary">
+                <mat-label >Password</mat-label>
+                <input matInput type="Password" name="" placeholder="Enter Password" 
+                 required>
+                </mat-form-field><br>
+
+                <mat-form-field floatLabel="auto" appearance="outline" color="primary">
+                    <mat-label >Confirm Password    </mat-label>
+                    <input matInput type="Password" name="" placeholder="Enter Password" 
+                     required>
+                    </mat-form-field><br>
+                <button mat-flat-button class="button" align="center">Register</button>
+                <br><br>
+
+        </mat-tab>
+        </mat-tab-group>
+      
+
+      
+
+
+   </body>
+   </html>
+
+   <p>Created by: TSHEHLA CORP. CopyRights reserved 2021</p>
+
+
+ 

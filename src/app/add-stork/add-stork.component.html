@@ -1,0 +1,25 @@
+<mat-form-field floatLabel="always" class="items">
+
+    <label id="new-stork">Item Code</label>
+    <input matinput for="new-stork" type="text" name="code" 
+    placeholder="Enter Stork code"  #code >
+
+    <label id="new-stork">Item Name</label>
+    <input matinput for="new-stork" type="text" name="name" 
+    placeholder="Enter Item Name"  #name >
+    
+    <label id="new-stork">Item Size</label>
+    <input matinput for="new-stork"  type="number" name="size" 
+      placeholder="Enter Item size" #size >
+  
+      <label id="new-user">Item Price</label>
+      <input matinput for="new-stork"  type="number" name="price" 
+        placeholder="Enter Item Price"  #price>
+    <mat-hint>Min 5</mat-hint>
+  
+  
+    <button math-button class="add-button" (click)="add(code.value, name.value
+    , size.value, price.value)">
+      Add Item
+    </button>
+  </mat-form-field>

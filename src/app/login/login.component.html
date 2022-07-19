@@ -1,0 +1,53 @@
+
+<mat-toolbar>
+  <div routerLink="/home">Home</div>
+  <div class="login">
+    <span>Login Here</span>
+  </div>
+</mat-toolbar>
+
+
+<mat-tab-group class="mattab">
+  <mat-tab label="Login" class="tab1">
+
+      <mat-form-field floatLabel="auto" appearance="outline" color="primary">
+      <mat-label >Name</mat-label>
+      <input matInput type="text" name="" placeholder="Enter Name" 
+       required>
+      </mat-form-field><br>
+
+      <mat-form-field floatLabel="auto" appearance="outline" color="primary">
+      <mat-label >Password</mat-label>
+      <input matInput type="Password" name="" placeholder="Enter Password" 
+       required>
+
+      
+      </mat-form-field><br>
+      <button mat-flat-button routerLink="/dashboard">Login</button>
+      <button mat-flat-button class="reg">Forgot Password</button>
+
+     
+
+      <p class="logText">
+          <br>
+          You are loggin to the selling system.
+          We hope you have read the manual for 
+          how the system works.<br>
+          <br>Good Luck!
+      </p>
+</mat-tab>
+
+ <p>Created by Adolphus. 2021 trademark reserved</p>
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+ </head>
+ <body>
+   
+ </body>
+ </html>

@@ -1,0 +1,25 @@
+<div>
+<mat-form-field hideRequiredMarker="true" appearance="outline">
+  <label >Name</label>
+  <input matinput for="new-user" type="text" name="user" placeholder="Enter Name"  #name required>
+</mat-form-field>
+<br>
+
+<mat-form-field hideRequiredMarker="true" appearance="outline">
+  <label id="new-user">Surname</label>
+  <input matInput for=new-user type="text" name="Surname" placeholder="Enter Surname" #surname required>
+</mat-form-field>
+
+<br>
+<mat-form-field hideRequiredMarker="true" appearance="outline">
+    <label id="new-user">Email</label>
+    <input matinput for=new-user type="text" name="Email" placeholder="Enter Email" required #email>
+  <mat-hint>Min 5</mat-hint>
+</mat-form-field>
+<br>
+  <button mat-raised-button math-button color="primary" class="add-button" (click)="add(name.value
+  , surname.value, email.value)" routerLink="/dashboard">
+    Register
+  </button>
+
+</div>

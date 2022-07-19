@@ -1,0 +1,63 @@
+
+div{
+    background-color: mediumblue;
+    color: white;
+    font-style: normal;
+    font-size: x-large;
+    background: rgb(24, 101, 245);
+    
+    cursor: pointer;
+    
+}
+
+.login{
+    text-align: center;
+}
+
+.log{
+    
+    background: transparent;
+    color: rgb(255, 245, 245);
+    top: 15%;
+    left: 10%;
+    position:absolute;
+    color: rgb(29, 19, 18);
+    box-sizing: border-box;
+    padding: 70px 30p;
+    background-image: url('003.jpg');
+    
+    bottom: 40%;
+}
+
+
+
+
+span{
+    text-align: center;
+    color: white;
+}
+
+label{
+    color: white;
+    
+}
+
+mat-form-field{
+    
+    
+}
+
+
+.mattab{
+    left: 5%;
+     width: 350px;
+     background-color: cornflowerblue;
+   }
+
+   .reg{
+    left: 2%;
+}
+
+body{
+    background-color: rgb(21, 55, 88);
+}

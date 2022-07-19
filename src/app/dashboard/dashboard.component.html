@@ -1,0 +1,26 @@
+
+
+
+
+<mat-drawer-container>
+  <mat-drawer [(opened)]="opened">
+
+    <button mat-button [matMenuTriggerFor]="menu">Stork</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item routerLink="/stork">Available stork</button>
+  <button mat-menu-item routerLink="/user">Users</button>
+
+</mat-menu>
+  </mat-drawer>
+  <mat-drawer-content>
+    <button (click) = "opened = opened">
+      - 
+      -
+    </button>
+
+  </mat-drawer-content>
+
+
+</mat-drawer-container>
+
+
