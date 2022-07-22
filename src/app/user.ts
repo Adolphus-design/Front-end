@@ -3,7 +3,9 @@
 export interface User{
 
     id: number,
-    name: string,
+    name1: string,
+    name2: string,
+    gender: string,
+    studendNo: number,
     surname: string,
-    email: string
 }

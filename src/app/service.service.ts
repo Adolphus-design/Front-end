@@ -33,7 +33,7 @@ private log(message: string) {
 }
 
   //private url = "api/users";
-  private url = "http://localhost:7000/user"
+  private url = "http://localhost:5000/ApiStudentGet"
   //private url = "assets/proxy.conf.json"
 
   /**

@@ -4,13 +4,14 @@
     <li *ngFor= "let user of data">
        
       <a routerLink="/detail/{{user.id}}">
-        <span class="badge">{{user.id}}</span>
-        {{user.name}}
-        
+        <span class="badge">{{user.id}}</span>{{user.name1}}
+        <span class="badge">{{user.id}}</span>{{user.name2}}
+        <span class="badge">{{user.id}}</span>{{user.studentNo}}
+        <span class="badge">{{user.id}}</span>{{user.surname}}
       </a>
 
-      <button class="delete" title="delete user"
-      (click)="delete(user)">x</button>
+      <button mat-raised-button color="warn" class="delete" title="delete user"
+      (click)="delete(user)">Delete</button>
     </li>
 </ul>
 
