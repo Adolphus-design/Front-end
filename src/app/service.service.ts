@@ -64,9 +64,7 @@ httpOptions = {
   getUsers(): Observable<User[]> {
    return this.http.get<any[]>(this.url, {responseType: "json"})
    .pipe(tap((_)=> console.log("fetched users")) ,catchError(this.handleError<any[]>('getUser', []))
-  );
-    //this.messageService.add('HeroService: fetched heroes');
-   // return users
+    );
   }
 
 
